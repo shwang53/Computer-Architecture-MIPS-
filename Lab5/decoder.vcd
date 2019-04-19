@@ -1,0 +1,113 @@
+$date
+	Wed Sep 26 18:01:32 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decoder_test $end
+$var wire 1 ! writeenable $end
+$var wire 1 " rd_src $end
+$var wire 1 # except $end
+$var wire 1 $ alu_src2 $end
+$var wire 3 % alu_op [2:0] $end
+$var reg 6 & funct [5:0] $end
+$var reg 6 ' opcode [5:0] $end
+$scope module decoder $end
+$var wire 1 ( add_ $end
+$var wire 1 $ alu_src2 $end
+$var wire 1 ) and_ $end
+$var wire 1 # except $end
+$var wire 6 * funct [5:0] $end
+$var wire 1 + nor_ $end
+$var wire 6 , opcode [5:0] $end
+$var wire 1 - or_ $end
+$var wire 1 " rd_src $end
+$var wire 1 . sub_ $end
+$var wire 1 ! writeenable $end
+$var wire 1 / xor_ $end
+$var wire 1 0 xori_ $end
+$var wire 1 1 ori_ $end
+$var wire 1 2 andi_ $end
+$var wire 3 3 alu_op [2:0] $end
+$var wire 1 4 addi_ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+04
+b10 3
+02
+01
+00
+0/
+0.
+0-
+b0 ,
+0+
+b100000 *
+0)
+1(
+b0 '
+b100000 &
+b10 %
+0$
+0#
+0"
+1!
+$end
+#10
+b11 %
+b11 3
+0(
+1.
+b100010 &
+b100010 *
+#20
+b100 %
+b100 3
+0.
+1)
+b100100 &
+b100100 *
+#30
+b110 %
+b110 3
+0)
+1+
+b100111 &
+b100111 *
+#40
+b10 %
+b10 3
+1$
+1"
+0+
+14
+b1000 '
+b1000 ,
+#50
+b100 %
+b100 3
+04
+12
+b1100 '
+b1100 ,
+#60
+b101 %
+b101 3
+02
+11
+b1101 '
+b1101 ,
+#70
+b111 %
+b111 3
+01
+10
+b1110 '
+b1110 ,
+#80
