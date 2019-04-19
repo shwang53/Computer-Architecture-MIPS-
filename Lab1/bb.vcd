@@ -1,0 +1,122 @@
+$date
+	Wed Aug 29 20:23:29 2018
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module bb_test $end
+$var wire 1 ! p_out $end
+$var reg 1 " b_in $end
+$var reg 1 # m_in $end
+$var reg 1 $ t_in $end
+$scope module bb1 $end
+$var wire 1 " b $end
+$var wire 1 # m $end
+$var wire 1 ! p $end
+$var wire 1 $ t $end
+$var wire 1 % w06 $end
+$var wire 1 & w14 $end
+$var wire 1 ' w15 $end
+$var wire 1 ( w18 $end
+$var wire 1 ) w27 $end
+$var wire 1 * w28 $end
+$var wire 1 + w29 $end
+$var wire 1 , w30 $end
+$var wire 1 - w42 $end
+$var wire 1 . w52 $end
+$var wire 1 / w58 $end
+$var wire 1 0 w72 $end
+$var wire 1 1 w75 $end
+$var wire 1 2 w79 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+12
+11
+10
+0/
+1.
+1-
+1,
+1+
+0*
+0)
+0(
+1'
+1&
+1%
+0$
+0#
+0"
+1!
+$end
+#10
+1!
+1)
+1*
+1&
+0%
+0+
+0.
+01
+0,
+1$
+#20
+0!
+0-
+0*
+11
+1,
+00
+1+
+0'
+02
+0$
+1"
+#30
+1!
+1-
+01
+0,
+10
+1$
+#40
+0)
+0(
+1%
+1.
+11
+1,
+1'
+12
+0$
+0"
+1#
+#50
+1)
+0%
+0.
+01
+0,
+1$
+#60
+11
+1,
+0'
+02
+0$
+1"
+#70
+0)
+0(
+1%
+01
+0,
+1/
+1$
+#80
